@@ -6,16 +6,7 @@ function App () {
         <h1>
             Student Grade Table
         </h1>
-        <Table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Course</th>
-                    <th>Grade</th>
-                </tr>
-            </thead>
-
-        </Table>
+        <Table />
 
     </div>
 }
