@@ -25,7 +25,9 @@ class ContactList extends React.Component {
         
         //console.log('Contact Data:', this.state.contacts);
 
-       return  <div>{list}</div>
+       return (
+            <div className='col-8'>
+                <div className='row'>{list}</div></div>)
     }
 
 }
