@@ -19,7 +19,7 @@ class ContactList extends React.Component {
         const list = this.state.contacts.map((item, index) => {
             //console.log('item:', item);
             return (
-                <ContactCard key={index} firstName={item.firstName} lastName={item.lastName}/>
+                <ContactCard key={index} contact={item} />
             )
         });
         
